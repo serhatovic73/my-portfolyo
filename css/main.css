@@ -1,0 +1,34 @@
+@media(max-width:1200px){
+   
+     nav{
+        margin-bottom: 20px;
+     }
+      
+    .container9{
+        width: 80%;
+        height: auto;
+        margin: 5% 10%;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .baslık{
+        width: 100%;
+        align-items: center;
+    }
+ 
+    .container10{
+     width: 80%;
+    }
+    .anasayfa{
+        margin: 0;
+        width: 100%;
+    }
+   .container13{
+   flex-direction: column;
+   }
+   .swiffy-slider {
+    max-width: 80%;
+   }
+    }

@@ -1,0 +1,61 @@
+@media(max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+.container9{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+.baslık{
+width: 40%;
+   
+}
+.container10{
+    width: 100%;
+}
+
+.container6{
+    width: 100%;
+    height: auto;
+}
+
+}
+@media(max-width:500px){/*index sayfası*/
+    .anasayfa{
+        margin-top: 30px;
+    }
+    .swiffy-slider {
+        max-width: 100%;
+    }
+}
+@media(max-width:500px){
+    .bilgi1{
+        max-width: 300px;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .include{
+        margin-top: 3rem;
+    }
+    .container13 h2 {
+        margin-left: 0px;
+        width: 300px;
+    }
+    .container13 img{
+        max-width: 300px;
+        height: 350px;
+        margin: 0px;
+        align-items: center;
+    }
+    .text {
+        margin: 1em;
+        margin-left: 0px;
+        text-align: center;
+     }
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+.text{
+    margin-left:180px;
+    font-family:'Times New Roman', Times, serif;
+    
+   
+}
+.text p{
+    font-style: italic;
+    opacity: 0.6;
+}
+
+/*KİRALİK EVLER*/
+.container9{
+  width: 90%;
+  height: 60%;
+  margin: 2rem 4rem;
+  background-color: #F8F9FA;
+  border-radius:30px;
+  display: flex;/*yan yana getirmek için (container10 ve container12)*/
+}
+.container10{
+ width: 45%;
+ margin: 2rem 4rem;
+ display: inline-block;
+ 
+}
+.baslık{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.4em;
+}
+
+
+
+.hr{
+    overflow: hidden;
+    text-align: center;
+    color:#0d6efd ;
+}
+.hr::before,
+.hr::after{
+    background-color:#0D6EFD;
+    content: "";
+    display: inline-block;
+    height: 0.1rem;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.hr:before {
+    right: 0.5em;
+    margin-left: -50%;
+    }
+.hr:after {
+    left: 0.5em;
+    margin-right: -50%;
+    }
+ .social-col i{
+    color: white;
+ }
+    
+    /*iletişim*/
+    .container13{
+       display: flex;
+        width: 80vw;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left:auto ;
+        margin-right: auto;
+    }
+ 
+    .img img{
+        width: 26rem;
+        height: 30rem;
+        margin: 80px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }    
+
+    .slider1{
+        max-width: 40%;
+    }
